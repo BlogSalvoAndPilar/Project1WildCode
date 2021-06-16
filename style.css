@@ -18,9 +18,8 @@
  height: auto;
  min-height: 20vh;
  background-repeat:no-repeat;
- background-attachment: local;
  background-size: 100%;
- background-position: right  bottom 10px;
+ background-position: left bottom;
 }
 
 @media screen and (min-width: 680px){
@@ -50,4 +49,10 @@
     justify-content: center;
     margin: auto ;
     
+}
+
+img{
+    
+    width: 20rem;
+    height: 15rem;
 }
