@@ -1,0 +1,41 @@
+.text-center{
+    text-align: ;
+}
+
+/* CARDS */
+
+.card{
+    margin:1em
+}
+.card-container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em ;
+    
+}
+
+.container-header{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ background-image: url(./img/event_Header.jpg);
+ height: 50vh;
+ min-height: 30vh;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100%;
+ 
+ 
+}
+.img-header{
+    width: 100%;
+    
+    
+}
+
+.text-header{
+    color: white;
+    font-size: 5em;
+}
