@@ -1,41 +1,53 @@
 .text-center{
-    text-align: ;
+    /* text-align: ; */
 }
 
-/* CARDS */
+/* NAV */
 
-.card{
-    margin:1em
-}
-.card-container{
-    display: flex; 
-    flex-wrap: wrap;
+.navbar-collapse {
     justify-content: center;
-    margin: 1em ;
-    
 }
+
+/* HEADER */
 
 .container-header{
  display: flex;
  justify-content: center;
  align-items: center;
- 
  background-image: url(./img/event_Header.jpg);
- height: 50vh;
- min-height: 30vh;
- background-repeat: no-repeat;
- background-attachment: fixed;
+ height: auto;
+ min-height: 20vh;
+ background-repeat:no-repeat;
+ background-attachment: local;
  background-size: 100%;
- 
- 
+ background-position: right  bottom 10px;
 }
+
+@media screen and (min-width: 680px){
+    .container-header{
+        min-height: 30vh;
+    }
+}
+
 .img-header{
     width: 100%;
-    
-    
 }
 
 .text-header{
     color: white;
     font-size: 5em;
+}
+
+/* CARDS */
+
+.card{
+    margin:1em auto;
+}
+
+.card-container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto ;
+    
 }
