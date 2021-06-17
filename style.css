@@ -1,0 +1,95 @@
+/* .text-center{
+    
+} */
+/* TEST BACKGROUND */
+body{
+     background: rgb(0,0,0);
+background: radial-gradient(circle, rgb(5, 2, 2) 0%, rgb(250, 250, 250) 90%);
+
+}
+
+/* NAV */
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+/* HEADER */
+
+.container-header{
+ display: flex;
+ justify-content: center;
+ align-items: center;;
+ height: auto;
+ min-height: 30vh;
+ background-repeat:no-repeat;
+ background-size:cover
+ 
+}
+
+.events-header{
+    background-image: url(./img/event_Header.jpg);
+    background-position: left bottom;
+}
+
+
+.nightlife-header{
+    background-image: url(./img/nightlife-header.jpeg);
+    background-position: center
+}
+
+@media screen and (min-width: 680px){
+    .container-header{
+        min-height: 40vh;
+    }
+}
+
+
+.text-header{
+    color: white;
+    font-size: 4em;
+    background-color: rgba(31, 30, 30, 0.438);
+}
+
+
+/* CARDS */
+
+.card{
+    display: block;
+        width: 100%;
+        margin: 1rem;
+        /* background: rgb(0,0,0);
+background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgb(10, 7, 7) 80%); */
+}
+
+@media screen and (min-width: 765px){
+    .card{
+        margin: 2em  auto;
+        width: 45%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1198px){
+    .card{
+        margin: 1em  auto;
+        width: 30%;
+        height: auto;
+    }
+    
+}
+
+.card-container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto ;
+    
+}
+.card-img-top{
+    
+    width: 100%;
+    height: 15rem;
+    object-fit:cover;
+}
