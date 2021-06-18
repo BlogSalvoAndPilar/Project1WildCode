@@ -93,3 +93,28 @@ background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgb(10, 7, 7) 80%); *
     height: 15rem;
     object-fit:cover;
 }
+
+
+
+
+button {
+    display: inline-block;
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+}
+
+#close-image img {
+    display: block;
+    height: 130px;  
+    width: 100px;
+}
+
+#close-CSS {
+    background-image: url( 'http://thinkingstiff.com/images/matt.jpg' );
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
