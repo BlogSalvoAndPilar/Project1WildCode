@@ -10,9 +10,21 @@ background: radial-gradient(circle, rgb(5, 2, 2) 0%, rgb(250, 250, 250) 90%);
 
 /* NAV */
 
+.navbar{
+    margin : 0 1rem;
+}
+
 .navbar-collapse {
     justify-content: center;
 }
+
+.nav-link{
+    margin: 0 2em;
+}
+.navbar-brand{
+    font-size: 2em;
+}
+
 
 /* HEADER */
 
@@ -20,11 +32,10 @@ background: radial-gradient(circle, rgb(5, 2, 2) 0%, rgb(250, 250, 250) 90%);
  display: flex;
  justify-content: center;
  align-items: center;;
- height: auto;
- min-height: 30vh;
+ min-height: 15vh;
  background-repeat:no-repeat;
- background-size:cover
- 
+ background-size:cover;
+ margin : 0 1rem;
 }
 
 .events-header{
@@ -51,14 +62,14 @@ background: radial-gradient(circle, rgb(5, 2, 2) 0%, rgb(250, 250, 250) 90%);
 
 @media screen and (min-width: 680px){
     .container-header{
-        min-height: 40vh;
+        min-height: 20vh;
     }
 }
 
 
 .text-header{
     color: white;
-    font-size: 3em;
+    font-size: 2.5em;
     background-color: rgba(31, 30, 30, 0.438);
 }
 
