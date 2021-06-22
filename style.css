@@ -2,16 +2,39 @@
     
 } */
 /* TEST BACKGROUND */
+html{
+    height: 100%;
+}
 body{
+    height: 100%;
      background: rgb(0,0,0);
-background: radial-gradient(circle, rgb(5, 2, 2) 0%, rgb(250, 250, 250) 90%);
+background: radial-gradient(circle, rgb(245, 238, 238) 0%, rgb(248, 222, 108) 90%);
 
 }
+
+@media screen and (min-width:1000px){
+    body{
+        font-size: 130%;
+    }
+}
+
+
+
 
 /* NAV */
 
 .navbar{
     margin : 0 1rem;
+}
+@media screen and (min-width:992px){
+    .navbar{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width:1450px){
+    .navbar{
+        font-size: 2rem;
+    }
 }
 
 .navbar-collapse {
@@ -79,14 +102,20 @@ background: radial-gradient(circle, rgb(5, 2, 2) 0%, rgb(250, 250, 250) 90%);
 }
 
 
+@media screen and (min-width:1450px){
+    .text-header{
+        font-size: 4em ;
+    }
+}
+
 /* CARDS */
 
 .card{
     display: block;
-        width: 100%;
-        margin: 1rem;
-        /* background: rgb(0,0,0);
-background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgb(10, 7, 7) 80%); */
+    width: 100%;
+    margin: 1rem;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(141, 11, 11, 0.068) 80%);
 }
 
 @media screen and (min-width: 765px){
@@ -100,8 +129,17 @@ background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgb(10, 7, 7) 80%); *
 
 @media screen and (min-width: 1198px){
     .card{
-        margin: 1em  auto;
+        margin: 2em  auto;
         width: 30%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1650px){
+    .card{
+        margin: 2em  2em;
+        width: 25%;
         height: auto;
     }
     
@@ -111,8 +149,11 @@ background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgb(10, 7, 7) 80%); *
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto ;
-    
+    margin: 2em auto;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: transform .4s;
 }
 .card-img-top{
     
