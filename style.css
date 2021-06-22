@@ -4,7 +4,10 @@
 /* TEST BACKGROUND */
 body{
      background: rgb(0,0,0);
-background: radial-gradient(circle, rgb(5, 2, 2) 0%, rgb(250, 250, 250) 90%);
+background: radial-gradient(circle, rgb(185, 178, 178) 0%, rgb(242, 234, 121) 90%);
+
+    font-style: normal;
+
 
 }
 
@@ -118,3 +121,21 @@ button {
     height: 134px;  
     width: 104px;
 }
+
+/* Footer */
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
