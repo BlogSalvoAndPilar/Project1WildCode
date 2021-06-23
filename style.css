@@ -12,11 +12,56 @@ background: radial-gradient(circle, rgb(185, 178, 178) 0%, rgb(242, 234, 121) 90
     flex-direction: column;
     height:100vh;
 }
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+     background: rgb(0,0,0);
+background: radial-gradient(circle, rgb(245, 238, 238) 0%, rgb(248, 222, 108) 90%);
+
+}
+
+@media screen and (min-width:1000px){
+    body{
+        font-size: 130%;
+    }
+}
+
+
+
 
 /* NAV */
 
+.navbar{
+    margin : 0 1rem;
+}
+@media screen and (min-width:992px){
+    .navbar{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width:1450px){
+    .navbar{
+        font-size: 2rem;
+    }
+}
+
 .navbar-collapse {
     justify-content: center;
+}
+
+.nav-link{
+    margin: 0 2em;
+}
+.navbar-brand{
+    font-size: 2em;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    font-weight: bold;
+    color:rgb(200, 76, 19)
+    
 }
 
 /* HEADER */
@@ -25,11 +70,10 @@ background: radial-gradient(circle, rgb(185, 178, 178) 0%, rgb(242, 234, 121) 90
  display: flex;
  justify-content: center;
  align-items: center;;
- height: auto;
- min-height: 30vh;
+ min-height: 15vh;
  background-repeat:no-repeat;
- background-size:cover
- 
+ background-size:cover;
+ margin : 0 1rem;
 }
 
 .events-header{
@@ -43,28 +87,46 @@ background: radial-gradient(circle, rgb(185, 178, 178) 0%, rgb(242, 234, 121) 90
     background-position: center
 }
 
+.culture-header{
+    background-image: url(./img/culture-header.jpeg);
+    background-position: center
+}
+
+
+.restaurants-header{ 
+    background-image: url(./img/restaurant-header.jpeg);
+    background-position: center
+}
+
 @media screen and (min-width: 680px){
     .container-header{
-        min-height: 40vh;
+        min-height: 20vh;
     }
 }
 
 
 .text-header{
     color: white;
-    font-size: 4em;
+    font-size: 2.5em;
     background-color: rgba(31, 30, 30, 0.438);
 }
 
+
+@media screen and (min-width:1450px){
+    .text-header{
+        font-size: 4em ;
+    }
+}
 
 /* CARDS */
 
 .card{
     display: block;
-        width: 100%;
-        margin: 1rem;
-        /* background: rgb(0,0,0);
-background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgb(10, 7, 7) 80%); */
+    width: 100%;
+    margin: 1rem;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(236, 236, 188, 0.685) 80%);
+    box-shadow: 2px 2px 5px;
 }
 
 @media screen and (min-width: 765px){
@@ -78,8 +140,17 @@ background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgb(10, 7, 7) 80%); *
 
 @media screen and (min-width: 1198px){
     .card{
-        margin: 1em  auto;
+        margin: 2em  auto;
         width: 30%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1650px){
+    .card{
+        margin: 2em  2em;
+        width: 25%;
         height: auto;
     }
     
@@ -89,8 +160,11 @@ background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgb(10, 7, 7) 80%); *
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto ;
-    
+    margin: 2em auto;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: transform .4s;
 }
 .card-img-top{
     
@@ -99,6 +173,7 @@ background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgb(10, 7, 7) 80%); *
     object-fit:cover;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -130,4 +205,15 @@ button {
 	
     
     margin-top:auto;
+=======
+.card-title{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.card-subtitle{
+    margin-bottom: 1em;
+    font-size: 20px;
+    color : rgb(200, 76, 19);
+>>>>>>> 76991c890e80892c4d3c94e2113aa7b1a08ea6a0
 }
