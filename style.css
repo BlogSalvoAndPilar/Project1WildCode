@@ -173,39 +173,6 @@ background: radial-gradient(circle, rgb(245, 238, 238) 0%, rgb(248, 222, 108) 90
     object-fit:cover;
 }
 
-<<<<<<< HEAD
-
-
-
-button {
-    display: inline-block;
-    height: 134px;
-    padding: 0;
-    margin: 0;
-    vertical-align: top;
-    width: 104px;
-}
-
-#close-image img {
-    display: block;
-    height: 130px;  
-    width: 100px;
-}
-
-#close-CSS {
-    background-image: url( 'http://thinkingstiff.com/images/matt.jpg' );
-    background-size: 100px 130px;
-    height: 134px;  
-    width: 104px;
-}
-
-/* Footer */
-
-.footer {
-	
-    
-    margin-top:auto;
-=======
 .card-title{
     font-weight: bold;
     margin-bottom: 1em;
@@ -215,5 +182,23 @@ button {
     margin-bottom: 1em;
     font-size: 20px;
     color : rgb(200, 76, 19);
->>>>>>> 76991c890e80892c4d3c94e2113aa7b1a08ea6a0
 }
+
+
+.carousel-control-next  .carousel-control-prev{
+    display: inline-block;
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+}
+
+/* Footer */
+
+.footer {
+	
+    
+    margin-top:auto;
+}
+
