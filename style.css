@@ -31,12 +31,12 @@ background: radial-gradient(circle, rgb(245, 238, 238) 0%, rgb(248, 222, 108) 90
 }
 @media screen and (min-width:992px){
     .navbar{
-        font-size: 1.3rem;
+        font-size: 18px;
     }
 }
 @media screen and (min-width:1450px){
     .navbar{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 }
 
@@ -194,20 +194,10 @@ background: radial-gradient(circle, rgb(245, 238, 238) 0%, rgb(248, 222, 108) 90
     }
 }
 
-/* .carousel-control-next  .carousel-control-prev{
-    display: inline-block;
-    height: 134px;
-    padding: 0;
-    margin: 0;
-    vertical-align: top;
-    width: 104px;
-} */
-
 /* Footer */
 
 .footer {
-	
-    
+
     margin-top:auto;
 }
 
