@@ -69,7 +69,7 @@ background: radial-gradient(circle, rgb(245, 238, 238) 0%, rgb(248, 222, 108) 90
  margin : 0 1rem;
 }
 
-.events-header{
+.events-header {
     background-image: url(./img/event_Header.jpg);
     background-position: left bottom;
 }
@@ -193,6 +193,88 @@ background: radial-gradient(circle, rgb(245, 238, 238) 0%, rgb(248, 222, 108) 90
         
     }
 }
+
+/* HOMEPAGE INTRO  */
+
+.intro{
+    margin: 2em;
+text-align: center;
+
+}
+
+/* HOMEPAGE BUTTONS */
+
+@media screen and (min-width: 1074px){
+    .index-btn-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .index-btn-container{
+        justify-content: space-evenly;
+    }
+}
+
+.indexButton{
+    
+    margin: 0.5em ;
+    padding: 3em;
+    border-radius: 20px;
+    
+}
+
+@media screen and (min-width: 1350px) {
+    .indexButton{
+    
+        margin: 0.2em ;
+        padding: 4em;
+        border-radius: 20px;
+        width: 20vw;
+    }
+}
+
+.indexButton:hover{
+    transform: scale(1.05);
+    transition: transform .4s;
+}
+
+.index-btn-container h2 {
+    text-decoration: none;
+    color: azure;
+    text-align: center;
+    background-color: rgba(31, 30, 30, 0.138)
+}
+
+
+.events {
+    background: no-repeat url(./img/event_Header.jpg);
+    background-position: left bottom;
+    background-size:cover;
+    
+}
+
+
+.nightlife{
+    background: no-repeat url(./img/nightlife-header.jpeg);
+    background-position: center;
+    background-size:cover;
+}
+
+.culture{
+    background: no-repeat url(./img/culture-header.jpeg);
+    background-position: center;
+    background-size:cover;
+}
+
+.restaurants{ 
+    background: no-repeat  url(./img/restaurant-header.jpeg);
+    background-position: center;
+    background-size:cover;
+}
+
 
 /* Footer */
 
