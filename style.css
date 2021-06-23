@@ -1,20 +1,13 @@
-/* .text-center{
-    
-} */
-/* TEST BACKGROUND */
+html{
+    height: 100%;
+} 
 .body{
      background:rgb(0,0,0);
 background: radial-gradient(circle, rgb(185, 178, 178) 0%, rgb(242, 234, 121) 90%);
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-    display: flex;
-    flex-direction: column;
-    height:100vh;
-}
-html{
-    height: 100%;
-}
 body{
     height: 100%;
      background: rgb(0,0,0);
@@ -184,15 +177,31 @@ background: radial-gradient(circle, rgb(245, 238, 238) 0%, rgb(248, 222, 108) 90
     color : rgb(200, 76, 19);
 }
 
+/* CAROUSEL */
 
-.carousel-control-next  .carousel-control-prev{
+.carousel-item img{
+    height: 35vh;
+    object-fit:cover;
+    width: 100%;
+    object-position:  50% 50%;
+}
+
+@media screen and (min-width:1198px){
+    .carousel-item img{
+        height: 60vh;
+        width: 100%;
+        
+    }
+}
+
+/* .carousel-control-next  .carousel-control-prev{
     display: inline-block;
     height: 134px;
     padding: 0;
     margin: 0;
     vertical-align: top;
     width: 104px;
-}
+} */
 
 /* Footer */
 
