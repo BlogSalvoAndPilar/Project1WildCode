@@ -11,7 +11,7 @@ background: radial-gradient(circle, rgb(185, 178, 178) 0%, rgb(242, 234, 121) 90
 body{
     height: 100%;
      background: rgb(0,0,0);
-background: radial-gradient(circle, rgb(245, 238, 238) 0%, rgb(248, 222, 108) 90%);
+    background: radial-gradient(circle, rgb(245, 238, 238) 0%, rgb(248, 222, 108) 90%);
 
 }
 
@@ -286,7 +286,19 @@ text-align: center;
 
 .footer {
 
-    margin-top:auto;
+ display:inline-flex;
+ align-content: center;
+ justify-content: space-around;
+ margin-top: 5em;
+ margin-bottom:0;
+ width: 100%; 
+ padding: 2.5em;
+ text-align:inherit; 
+ background-color:rgb(226, 186, 76);
+}
+
+.creators{
+    font-weight: bolder;
 }
 
 i{
