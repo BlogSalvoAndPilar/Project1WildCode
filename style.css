@@ -104,7 +104,7 @@ body{
 
 
 .text-header{
-    color: white;
+    color :rgb(238, 200, 97);
     font-size: 2.5em;
     background-color: rgba(31, 30, 30, 0.438);
 }
@@ -281,9 +281,9 @@ border-radius: 20px;
 
 .index-btn-container h2 {
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color :rgb(238, 200, 97);;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.061)
+    background-color: rgba(0, 0, 0, 0.261)
 }
 
 
