@@ -180,6 +180,13 @@ body{
     height: 15rem;
     object-fit:cover;
 }
+@media screen and (min-width: 2000px ){
+    .card-img-top{
+    
+    height: 20rem;
+    
+    }
+    }
 
 .card-title{
     font-weight: bold;
