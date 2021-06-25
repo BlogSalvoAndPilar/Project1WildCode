@@ -140,7 +140,7 @@ body{
     .card{
         margin: 2em  auto;
         width: 30%;
-        height: auto;
+        
     }
     
 }
@@ -149,7 +149,7 @@ body{
     .card{
         margin: 2em  2em;
         width: 25%;
-        height: 30em;
+       
         
     }
 
@@ -181,6 +181,14 @@ body{
     object-fit:cover;
 }
 
+@media screen and (min-width: 2000px ){
+    .card-img-top{
+    
+        height: 20rem;
+        
+    }
+}
+
 .card-title{
     font-weight: bold;
     margin-bottom: 1em;
@@ -202,7 +210,7 @@ body{
 }
 
 .carousel-item img{
-    height: 35vh;
+    height: 40vh;
     object-fit:cover;
     width: 100%;
     object-position:  50% 50%;
@@ -215,6 +223,13 @@ body{
         
     }
 }
+.blockquote-carousel{
+    margin: 0;
+}
+
+    .blockquote-footer-carousel{
+        color: rgb(247, 241, 239);;
+    }
 
 /* HOMEPAGE INTRO  */
 
@@ -232,6 +247,12 @@ border-radius: 20px;
 
 .blockquote-footer{
     color: rgb(200, 76, 19);;
+}
+
+@media screen and (min-width:768px){
+    .blockquote{
+        display: none;
+    }
 }
 
 /* HOMEPAGE BUTTONS */
